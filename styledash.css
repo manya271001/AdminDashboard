@@ -4,7 +4,7 @@ body{
 }
 #navbar{
     display: flex;
-    margin-top: 10px;
+    margin-top: -10px;
     gap: 40px;
 }
 #navbar #horizontal a{
@@ -38,10 +38,38 @@ body{
 
 }
 #latest{
-    background-color: rgb(17, 100, 103);
+    background-color: rgb(5, 10, 66);
     padding: 10px;
     border-radius: 20px;
     margin-top: -10px;
     height: 20px;
+
+}
+/* CHART SECTION */
+#charts #firstblock{
+    display: flex; 
+    gap: 30px;
+    margin-left: 20%;
+    margin-top: -23%;
+}
+#charts #firstblock img{
+    height: 300px;
+    width: 700p;
+    border-radius: 20px;
+}
+#charts #mid img{
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 20px;
+}
+#charts #last img{
+height: 300px;
+    width: 800px;
+    border-radius: 20px;
+}
+#charts #last {
+display: flex;
+margin-top: 20px;
+gap: 30px;
 
 }
