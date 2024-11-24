@@ -1,0 +1,44 @@
+body{
+    background-image: url("./signup3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#signup{
+    margin-top: 40PX;
+    margin-left: 5%;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 30px;
+}
+#signup #form1 {
+    background-color:rgba(244, 170, 117, 0.5) ;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#signup #form1 h3{
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger
+}
+#signup #form1 input{
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px solid black;
+}
+#signup #form1 button{
+    background-color: black;
+    color: burlywood;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 30px;
+    border: 1px solid black;
+}
+#signup #form1 button:hover{
+    background-color: burlywood;
+    color: black;
+}
